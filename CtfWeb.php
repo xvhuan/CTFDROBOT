@@ -2,10 +2,10 @@
 
 class CtfWeb
 {
-    public $aimWEB = "ctf.xpr0adic.top";
-    public $robotCode = "198358517";
-    public $groupCode = "891259761";
-    public $API = "39.104.77.175:666";
+    public $aimWEB = "";
+    public $robotCode = "";
+    public $groupCode = "";
+    public $API = "";
 
     public function getChallenges()
     {
@@ -59,8 +59,8 @@ class CtfWeb
 
     public function loginWEB()
     {
-        $user = "210246020@qq.com";
-        $passwd = "yx123456yx";
+        $user = "";
+        $passwd = "";
         $domain = $this->aimWEB;
         $result_web = $this->use_curl("http://$domain/login?next=%2Fchallenges%3F", 0, 0, 1);
         $nonceGet = strstr($result_web, "csrfNonce");
