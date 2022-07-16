@@ -14,7 +14,7 @@ $a->TopFiveDay();
 该方法存在BUG，最新版本将直接修改Ctfd源码实现播报推送。
 需要利用账户的Token。请去设置界面生成account token
 
-将一下内容添加至 CTFd/CTFd/api/v1/challenges.py文件的第676行，注意缩进！！！！！
+将一下内容添加至 CTFd/CTFd/api/v1/challenges.py文件的第673行，注意缩进！！！！！
 引用的包，添加至文件开头！！！
 
 
